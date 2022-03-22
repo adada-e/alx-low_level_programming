@@ -5,12 +5,12 @@
  * @str: pointer int type
  * Return: Always 0.
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 while (*str != '\0')
 {
-putchar(*str);
+_putchar(*str);
 str++;
 }
-putchar('\n');
+_putchar('\n');
 }
