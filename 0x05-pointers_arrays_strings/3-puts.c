@@ -1,19 +1,16 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _puts - Write a function that prints a string
- * start a new line, to stdout.
- * @str: an input string
- * Return: Nothing
+ * _puts - check the code for Holberton School students.
+ * @str: pointer int type
+ * Return: Always 0.
  */
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (str[i] != '\0')
-	{
-		_putchar(str[i]);
-		i++;
-	}
-	_putchar('\n');
+while (*str != '\0')
+{
+_putchar(*str);
+str++;
+}
+_putchar('\n');
 }
