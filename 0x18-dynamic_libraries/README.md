@@ -1,5 +1,13 @@
 0x18. C - Dynamic libraries
 
+This project tells us all about dynamic libraries and how they are used. 
+
+Resources
+Read or watch:
+
+What is difference between Dynamic and Static library (Static and Dynamic linking)
+create dynamic libraries on Linux
+Technical Writing
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 

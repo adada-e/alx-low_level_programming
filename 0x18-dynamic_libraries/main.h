@@ -1,9 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
+#include <unistd.h>
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Prototypes*/
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -25,4 +28,11 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif /*MAIN_H*/
+/* Prototypes for Task 2*/
+int add(int, int);
+int sub(int, int);
+int mul(int, int);
+int _div(int, int);
+int mod(int, int);
+
+#endif /* _MAIN_H_ */
